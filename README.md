@@ -1,10 +1,8 @@
-📝 **NOTE** Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
-
 ## Week 1 Assignment: Flixster
 
-Submitted by: **NAME**
+Submitted by: Joselyne Malan
 
-Estimated time spent: **#** hours spent in total
+Estimated time spent: 17 hours spent in total
 
 Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
@@ -12,25 +10,25 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 #### Core Features
 
-- [ ] User can view a list of current movies from The Movie Database API as a grid view
+- [x] User can view a list of current movies from The Movie Database API as a grid view
   - The grid element should have an id of `movies-grid`
   - Each movie wrapper element should have a class of `movie-card`
-- [ ] For each movie displayed, user can see the following details:
+- [x] For each movie displayed, user can see the following details:
   - Title - the element should have a class of `movie-title`
   - Image - the `img` element should have a class of `movie-poster`
   - Votes - the element should have a class of `movie-votes`
-- [ ] User can load more current movies by clicking a button at the bottom of the list
+- [x] User can load more current movies by clicking a button at the bottom of the list
   - The button should have an id of `load-more-movies-btn`.
   - When clicked, the page should not refresh.
   - New movies should simply be added to the bottom
-- [ ] Allow users to search for movies and display them in a grid view
+- [x] Allow users to search for movies and display them in a grid view
   - There should be a search input element with an id of `search-input`
   - Users should be able to type into the input
   - When a user hits 'Enter', it should send a search request to the movies API
   - The results from the search should be displayed on the page
   - There should be a close icon with an id of `close-search-btn` that exits the search, clears results, and shows the current movies displayed previously
-- [ ] Website accounts for basic HTML/CSS accessibility features
-- [ ] Website should be responsive
+- [X] Website accounts for basic HTML/CSS accessibility features
+- [X] Website should be responsive
 
 #### Stretch Features
 
@@ -41,29 +39,37 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 - [ ] Implement anything else that you can get done to improve the app functionality!
 
 ### Walkthrough Video
+-
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
+https://drive.google.com/file/d/1EJRIeNtFNtag4_PSF9veBVHnZfuGlNTv/view?usp=sharing 
 
 ### Reflection
 
 - Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+The topics discussed in lab did prepare me to complete the assignment. The topics such functions,query selectors and DOM connectors between HTML and JavaScript was covered in great depth and made me feel very perpared to implement them into this project. However, the topic on API was difficult to understand especially when it came to building the URL becuase it used a different form API which had distinct documentation for its usage.
 
 - If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+If I had more time, I definutely would have styled my website in a more attractive way. As of now I have been focusing on implementing the functionality of the website more than the front end apperence. I would have improved my search bar functionality and figure out how its input can read a whole phrase rather than just a phrase. I would have have also implemented a pop up for the movie description
 
 - Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+Building the skeleton of thje website was realtaively simple, however I did run into some issues on planning the layout of the movie content. I was debating on either placing a div inside the HTML or in JavaScript. After consulting with my peers I shifted my focus on implementing the content of the movie inside JavaScript. It also took time to understand how parameters and global variabes are handled especially in event handlers. I am used to defining the type of variables within fucntions and global variables as a point of reference but since JavaScript does not use types it was hard for me to keep track of variable usage. 
 
 ### Open-source libraries used
 
 - Add any links to open-source libraries used in your project.
+https://www.programiz.com/javascript/online-compiler/
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+https://developer.themoviedb.org/docs
+codepen.io/javascript
+https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/
 
 ### Shout out
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+Ethan Pineda
+Ashaun Thomas
+Devarsh Thaker
+Luis Bravo

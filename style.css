@@ -1,1 +1,79 @@
+:root{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+h2 {
+    font-size: 50px;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.navigationBar{
+    float: right;
+}
 
+.Btn{
+    text-align: center;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+div{
+    margin:10px;
+    font-size: 20px;
+}
+#search-input{
+    text-align: left;
+
+}
+#movie-grid {
+    display: flex;  
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 10px;
+}
+#searchBar{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+#close-search-btn{
+    background-color: whitesmoke;
+    font-size: 20px;
+    height: 30px;
+    width: 70px;
+    border-radius: 15px;
+
+}
+#load-more-movies-btn{
+    background-color: whitesmoke;
+    font-size: 20px;
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+}
+#movie-card {
+    width: 50px;
+    height: 200px;
+    background-color: aliceblue;
+    margin-top: 10px;
+    word-wrap: break-word;
+    overflow-y: auto;
+    box-sizing:border-box;
+}
+#title{
+    font-size: 50px;
+    text-align: center;
+}
+#movieTag{
+    font-size: 30px;
+    text-align: left;
+
+}
