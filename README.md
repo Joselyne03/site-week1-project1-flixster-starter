@@ -40,7 +40,17 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 ### Walkthrough Video
 
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The embed element</h1>
+
 <embed type="image/jpg" src="https://im2.ezgif.com/tmp/ezgif-2-e09c4e6aef.gif" width="300" height="200">
+
+</body>
+</html>
+
 
 ### Reflection
 
