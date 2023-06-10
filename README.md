@@ -44,9 +44,7 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 <html>
 <body>
 
-<h1>The embed element</h1>
-
-<embed type="image/jpg" src="https://im2.ezgif.com/tmp/ezgif-2-e09c4e6aef.gif" width="300" height="200">
+<embed type="video/webcam" src="https://im2.ezgif.com/tmp/ezgif-2-e09c4e6aef.gif" width="700" height="400">
 
 </body>
 </html>
